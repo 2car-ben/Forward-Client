@@ -4,57 +4,57 @@
     "runtime": "micro's runtime",
     "env": [
         {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
+            "key": "API_ID",
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
+            "value": "",
             "required": true
         },
         {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
+            "key": "API_HASH",
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
+            "value": "",
+            "required": true 
+        },
+        {
+            "key": "STRING_SESSION",
+            "description": "Get this from @StringSessionGen_Bot",
+            "value": "",
+            "required": true
+        },
+        {
+            "key": "FORWARD_FROM_CHAT_ID",
+            "description": "Forward From Chat IDs. Separate with Space.",
+            "value": "",
+            "required": true
+        },
+        {
+            "key": "FORWARD_TO_CHAT_ID",
+            "description": "Forward To Chat IDs. Separate with Space.",
+            "value": "",
+            "required": true
+        },
+        {
+            "key": "FORWARD_FILTERS",
+            "description": "Filters can be `text`, `video`, `document`, `gif`, `sticker`, `photo`, `audio`, `poll`, `forwarded`. Separate with Space.",
+            "value": "",
             "required": false 
         },
         {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
+            "key": "BLOCKED_EXTENSIONS",
+            "description": "Don't Forward those Media Messages which contains Blocked Extensions. Example: `mp4 mkv mp3 zip rar`. Separate with Space.",
+            "value": "",
             "required": false 
         },
         {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
+            "key": "MINIMUM_FILE_SIZE",
+            "description": "Minimum File Size for Media Message to be able to Forward. Should be in Bytes.",
+            "value": "",
             "required": false 
         },
         {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
-            "required": false 
-        },
-        {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
-            "required": false 
-        },
-        {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
-            "required": false 
-        },
-        {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
-            "required": false 
-        },
-        {
-            "key": "ENV_VAR_KEY",
-            "description": "Human friendly description of the env var",
-            "value": "Default value of the env var",
+            "key": "BLOCK_FILES_WITHOUT_EXTENSIONS",
+            "description": "Value can be `True`/`False`. If `True` those files which doesn't have file extension will not be Forwarded.",
+            "value": "",
             "required": false 
         },
         {
