@@ -14,6 +14,54 @@
             "description": "Human friendly description of the env var",
             "value": "Default value of the env var",
             "required": false 
-        }
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": false 
+        },
+        {
+            "key": "FORWARD_AS_COPY",
+            "description": "Forward Messages as Copy or with Forward Tag. Value should be True/False.",
+            "value": "",
+            "required": false 
+        }       
     ]
 }
