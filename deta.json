@@ -2,7 +2,7 @@
     "name": "This is Telegram Messages Forwarder Userbot by @AbirHasan2005",
     "description": "This is Telegram Messages Forwarder Userbot in Pyrogram by @AbirHasan2005",
     "runtime": "micro's runtime",
-    "env": {
+    "env": [
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot",
             "required": true
@@ -43,5 +43,5 @@
             "description": "Forward Messages as Copy or with Forward Tag. Value should be True/False.",
             "required": false
         }
-    }
+    ]
 }
