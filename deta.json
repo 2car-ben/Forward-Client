@@ -1,47 +1,14 @@
 {
-    "name": "This is Telegram Messages Forwarder Userbot by @AbirHasan2005",
-    "description": "This is Telegram Messages Forwarder Userbot in Pyrogram by @AbirHasan2005",
+    "name": "your app name",
+    "description": "your app description", 
     "runtime": "micro's runtime",
     "env": [
-        "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
-            "required": true
-        },
-        "STRING_SESSION": {
-            "description": "Get this from @StringSessionGen_Bot",
-            "required": true
-        },
-        "FORWARD_FROM_CHAT_ID": {
-            "description": "Forward From Chat IDs. Separate with Space.",
-            "required": true
-        },
-        "FORWARD_TO_CHAT_ID": {
-            "description": "Forward To Chat IDs. Separate with Space.",
-            "required": true
-        },
-        "FORWARD_FILTERS": {
-            "description": "Filters can be `text`, `video`, `document`, `gif`, `sticker`, `photo`, `audio`, `poll`, `forwarded`. Separate with Space.",
-            "required": false
-        },
-        "BLOCKED_EXTENSIONS": {
-            "description": "Don't Forward those Media Messages which contains Blocked Extensions. Example: `mp4 mkv mp3 zip rar`. Separate with Space.",
-            "required": false
-        },
-        "MINIMUM_FILE_SIZE": {
-            "description": "Minimum File Size for Media Message to be able to Forward. Should be in Bytes.",
-            "required": false
-        },
-        "BLOCK_FILES_WITHOUT_EXTENSIONS": {
-            "description": "Value can be `True`/`False`. If `True` those files which doesn't have file extension will not be Forwarded.",
-            "required": false
-        },
-        "FORWARD_AS_COPY": {
-            "description": "Forward Messages as Copy or with Forward Tag. Value should be True/False.",
-            "required": false
+        {
+            "key": "ENV_VAR_KEY",
+            "description": "Human friendly description of the env var",
+            "value": "Default value of the env var",
+            "required": true 
         }
     ]
 }
+
