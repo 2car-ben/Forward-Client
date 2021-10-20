@@ -4,23 +4,23 @@
     "runtime": "micro's runtime",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot",
             "required": true
         },
         "STRING_SESSION": {
-            "description": "Get this from @StringSessionGen_Bot"
+            "description": "Get this from @StringSessionGen_Bot",
             "required": true
         },
         "FORWARD_FROM_CHAT_ID": {
-            "description": "Forward From Chat IDs. Separate with Space."
+            "description": "Forward From Chat IDs. Separate with Space.",
             "required": true
         },
         "FORWARD_TO_CHAT_ID": {
-            "description": "Forward To Chat IDs. Separate with Space."
+            "description": "Forward To Chat IDs. Separate with Space.",
             "required": true
         },
         "FORWARD_FILTERS": {
