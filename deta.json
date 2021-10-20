@@ -1,30 +1,27 @@
 {
     "name": "This is Telegram Messages Forwarder Userbot by @AbirHasan2005",
     "description": "This is Telegram Messages Forwarder Userbot in Pyrogram by @AbirHasan2005",
-    "keywords": [
-        "telegram",
-        "messages",
-        "forwarder",
-        "userbot"
-    ],
-    "repository": "https://github.com/AbirHasan2005/Forward-Client",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "runtime": "micro's runtime",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "required": true
         },
         "API_HASH": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "required": true
         },
         "STRING_SESSION": {
             "description": "Get this from @StringSessionGen_Bot"
+            "required": true
         },
         "FORWARD_FROM_CHAT_ID": {
             "description": "Forward From Chat IDs. Separate with Space."
+            "required": true
         },
         "FORWARD_TO_CHAT_ID": {
             "description": "Forward To Chat IDs. Separate with Space."
+            "required": true
         },
         "FORWARD_FILTERS": {
             "description": "Filters can be `text`, `video`, `document`, `gif`, `sticker`, `photo`, `audio`, `poll`, `forwarded`. Separate with Space.",
